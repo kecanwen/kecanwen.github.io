@@ -1,15 +1,12 @@
-## Welcome to GitHub Pages
+## 简历
 
-You can use the [editor on GitHub](https://github.com/kecanwen/kecanwen.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+本科：淮北师范大学
+专业：计算机科学技术
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 专业技能
 
 ```markdown
-Syntax highlighted code block
+1.react 
 
 # Header 1
 ## Header 2
