@@ -1,0 +1,20 @@
+{
+  "name": "kecanwen.github.io",
+  "version": "1.0.0",
+  "description": "本科：淮北师范大学\r 专业：计算机科学技术",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kecanwen/kecanwen.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kecanwen/kecanwen.github.io/issues"
+  },
+  "homepage": "https://github.com/kecanwen/kecanwen.github.io#readme"
+}

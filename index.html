@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet/css" type="text/css" href="../styles/reset.css" />
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .firstPage{
+            width: 100vw;
+            height: 100vh;
+            background: url("./imgs/Cool Blues.jpg");
+            display: flex;
+            justify-content: center;
+        }
+        .introduce{
+            padding-top: 180px;
+            text-align: center;
+        }
+        .introduce h1{
+            padding: 10px 0;
+        }
+        .introduce p{
+            font-size: 16px;
+            padding: 5px 0;
+        }
+        .introduce h3{
+            display: flex;
+            float: right;
+            margin-top: 20px;
+        }
+        .introduce h3 a{
+            color: #666666;
+            padding: 0 10px;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-edfgefgefeeeeeeeeeeeee
+    <div class="firstPage">
+        <div class="introduce">
+            <p><img src="./imgs/headPortrait.png"></p>
+            <h1>Hey，我是柯灿文</h1>
+            <p>2014年底开始自学前端，从一份点击量数百万的 前端简历 求得职位开始前端职业生涯，如今为聚美优品电商&增长团队负责人</p>
+            <p>从架构设计到资源发布，从MPA、SPA到小程序、快应用、electron，从协作规范到团队管理都有着一定的经验，对开源分享造轮子亦有浓厚兴趣。</p>
+            <h3>
+                <a href="">掘金</a>
+                <a href="">csdn</a>
+                <a href="">github</a>
+                <a href="">公众号</a>
+            </h3>
+        </div>
+    </div>
 </body>
 </html>
