@@ -6,15 +6,27 @@
     <title>Title</title>
     <style>
         *{
+            color: white;
             margin: 0;
             padding: 0;
         }
         .firstPage{
             width: 100vw;
             height: 100vh;
-            background: url("./imgs/Cool Blues.jpg");
+            background: linear-gradient(90deg,#007991,#78ffd6);
             display: flex;
             justify-content: center;
+        }
+        .myHeadPortrait{
+            transition-property: all;
+            transition-duration: 4s;
+            transition-delay: 0s, 1s, 0s;
+            border: solid 2px #000000;
+            border-radius: 10px;
+        }
+        .myHeadPortrait:hover{
+            border-radius: 90px;
+            box-shadow: 5px 3px 5px #03040a;
         }
         .introduce{
             padding-top: 180px;
@@ -22,6 +34,21 @@
         }
         .introduce h1{
             padding: 10px 0;
+            -webkit-transition:all 1.5s ease;
+            transition:all 1.5s ease;
+        }
+        .introduce h1:hover{
+            color:#fff;
+            -webkit-animation:Glow 1.5s ease infinite alternate;
+            animation:Glow 1.5s ease infinite alternate;
+        }
+        @keyframes Glow {
+            from {
+                text-shadow:0 0 10px DarkSlateBlue,0 0 20px DarkSlateBlue,0 0 30px DarkSlateBlue,0 0 40px #00a67c,0 0 70px #00a67c,0 0 80px #00a67c,0 0 100px #00a67c,0 0 150px #00a67c;
+            }
+            to {
+                text-shadow:0 0 5px DarkSlateBlue,0 0 10px DarkSlateBlue,0 0 15px DarkSlateBlue,0 0 20px #00a67c,0 0 35px #00a67c,0 0 40px #00a67c,0 0 50px #00a67c,0 0 75px #00a67c;
+            }
         }
         .introduce p{
             font-size: 16px;
@@ -33,7 +60,6 @@
             margin-top: 20px;
         }
         .introduce h3 a{
-            color: #666666;
             padding: 0 10px;
             text-decoration: none;
         }
@@ -42,9 +68,10 @@
 <body>
     <div class="firstPage">
         <div class="introduce">
-            <p><img src="./imgs/headPortrait.png"></p>
+            <p><img src="./imgs/headPortrait.png" class="myHeadPortrait"></p>
             <h1>Hey，我是柯灿文</h1>
-            <p>2014年底开始自学前端，从一份点击量数百万的 前端简历 求得职位开始前端职业生涯，如今为聚美优品电商&增长团队负责人</p>
+            <span></span>
+            <p>2018年底开始自学前端，从一份点击量数百万的 前端简历 求得职位开始前端职业生涯，如今为聚美优品电商&增长团队负责人</p>
             <p>从架构设计到资源发布，从MPA、SPA到小程序、快应用、electron，从协作规范到团队管理都有着一定的经验，对开源分享造轮子亦有浓厚兴趣。</p>
             <h3>
                 <a href="">掘金</a>

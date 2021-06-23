@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eeefecbd-513f-4065-9c94-40b9fbf4f98d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/Cool Blues.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/global.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +61,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624462659938</updated>
-      <workItem from="1624462662190" duration="2124000" />
+      <workItem from="1624462662190" duration="3608000" />
     </task>
+    <task id="LOCAL-00001" summary="首页样式提交">
+      <created>1624464869295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1624464869296</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -80,5 +86,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="首页样式提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="首页样式提交" />
   </component>
 </project>
