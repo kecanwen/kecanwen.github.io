@@ -8,6 +8,7 @@ body, dl, dt, dd, ul, ol, li, pre, form, fieldset, input, p, blockquote, th, td 
   font-weight:400;
   margin:0;
   padding:0;
+  list-style-type: none;
 }
 h1, h2, h3, h4, h4, h5 {
   margin:0;

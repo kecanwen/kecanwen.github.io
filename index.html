@@ -63,16 +63,77 @@
             padding: 0 10px;
             text-decoration: none;
         }
+        .Bubble{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .Bubble .BubbleItem{
+            position: fixed;
+            list-style-type: none;
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            border-radius: 50%;
+            text-align: center;
+            color: #fff;
+            font-size: .34667rem;
+            box-shadow: inset 0 0 0.66667rem 0.13333rem;
+            animation: pulse 2s linear infinite;
+            transition: opacity 1s 1s;
+        }
+        .Bubble .BubbleItem:first-child{
+            left: 26%;
+            top: 10%;
+        }
+        .Bubble .BubbleItem:nth-child(2){
+            left: 60%;
+            top: 10%;
+        }
+        .Bubble .BubbleItem:nth-child(3){
+            left: 36%;
+            top: 8%;
+        }
+        .Bubble .BubbleItem:nth-child(4){
+            left: 31%;
+            top: 31%;
+        }
+        .Bubble .BubbleItem:nth-child(5){
+            left: 58%;
+            top: 30%;
+        }
+        .Bubble .BubbleItem:last-child{
+            left: 68%;
+            top: 30%;
+        }
+        @keyframes  pulse{
+            0%{
+                transform: scale(1);
+            }
+            50%{
+                transform: scale(1.1);
+            }
+            100%{
+                transform: scale(1);
+            }
+        }
     </style>
 </head>
 <body>
     <div class="firstPage">
         <div class="introduce">
+            <div class="Bubble">
+                <div class="BubbleItem">24岁</div>
+                <div class="BubbleItem">在职</div>
+                <div class="BubbleItem">上海</div>
+                <div class="BubbleItem">本科一批</div>
+                <div class="BubbleItem">计算机专业</div>
+                <div class="BubbleItem">前端工程师</div>
+            </div>
             <p><img src="./imgs/headPortrait.png" class="myHeadPortrait"></p>
             <h1>Hey，我是柯灿文</h1>
             <span></span>
-            <p>2018年底开始自学前端，从一份点击量数百万的 前端简历 求得职位开始前端职业生涯，如今为聚美优品电商&增长团队负责人</p>
-            <p>从架构设计到资源发布，从MPA、SPA到小程序、快应用、electron，从协作规范到团队管理都有着一定的经验，对开源分享造轮子亦有浓厚兴趣。</p>
+            <p>本科计算机专业,2018年底开始自学前端,对一些基础的计算机基础原理有着深刻的理解</p>
+            <p>从Vue框架，从MPA、SPA到小程序、快应用、electron，对开源分享造轮子亦有浓厚兴趣。</p>
             <h3>
                 <a href="">掘金</a>
                 <a href="">csdn</a>
